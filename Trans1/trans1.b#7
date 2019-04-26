@@ -154,7 +154,7 @@
 <wire x1="1.27" y1="33.02" x2="0" y2="31.75" width="0" layer="20"/>
 <wire x1="0" y1="31.75" x2="0" y2="1.27" width="0" layer="20"/>
 <wire x1="0" y1="1.27" x2="1.27" y2="0" width="0" layer="20"/>
-<text x="23.495" y="25.4" size="0.8128" layer="25" font="vector">Flex Transceiver v1.02
+<text x="15.875" y="25.4" size="0.8128" layer="25" font="vector">Flex Transceiver v1.02
 Custom Digital Services, LLC
 www.custom-ds.com</text>
 <text x="7.62" y="27.94" size="0.8128" layer="25" font="vector">Xmit Power</text>

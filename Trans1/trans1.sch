@@ -6607,15 +6607,25 @@ http://www.dorji.com/pro/Modules/Audio_voice_transceiver.html</description>
 <part name="R7" library="resistor" deviceset="R-US_" device="R0805" value="100k"/>
 <part name="R5" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
-<part name="C3" library="resistor" deviceset="C-US" device="C0805" value="36pF"/>
-<part name="C4" library="resistor" deviceset="C-US" device="C0805" value="20pF"/>
-<part name="C2" library="resistor" deviceset="C-US" device="C0805" value="36pF"/>
+<part name="C3" library="resistor" deviceset="C-US" device="C0805" value="36pF">
+<attribute name="DIGIKEY" value="478-10473-1-ND"/>
+</part>
+<part name="C4" library="resistor" deviceset="C-US" device="C0805" value="20pF">
+<attribute name="DIGIKEY" value="‎712-1381-1-ND‎"/>
+</part>
+<part name="C2" library="resistor" deviceset="C-US" device="C0805" value="36pF">
+<attribute name="DIGIKEY" value="478-10473-1-ND"/>
+</part>
 <part name="C5" library="resistor" deviceset="C-US" device="C0805" value=".1uF"/>
 <part name="Q2" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="BSS138"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
 <part name="JP2" library="SparkFun-Connectors" deviceset="M01" device="PTH"/>
-<part name="L2" library="custom-ds" deviceset="INDUCTOR" device="" value="1µH"/>
-<part name="L3" library="custom-ds" deviceset="INDUCTOR" device="" value="1µH"/>
+<part name="L2" library="custom-ds" deviceset="INDUCTOR" device="" value="68nH">
+<attribute name="DIGIKEY" value="‎535-11572-1-ND‎"/>
+</part>
+<part name="L3" library="custom-ds" deviceset="INDUCTOR" device="" value="56nH">
+<attribute name="DIGIKEY" value="535-11570-1-ND"/>
+</part>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0805" value="10k"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
@@ -6634,8 +6644,12 @@ http://www.dorji.com/pro/Modules/Audio_voice_transceiver.html</description>
 <part name="R4" library="resistor" deviceset="R-US_" device="R0805" value="1k"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0805" value="1k"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="L1" library="custom-ds" deviceset="INDUCTOR" device="" value="1µH"/>
-<part name="C1" library="resistor" deviceset="C-US" device="C0805" value="20pF"/>
+<part name="L1" library="custom-ds" deviceset="INDUCTOR" device="" value="56nH">
+<attribute name="DIGIKEY" value="535-11570-1-ND"/>
+</part>
+<part name="C1" library="resistor" deviceset="C-US" device="C0805" value="20pF">
+<attribute name="DIGIKEY" value="‎712-1381-1-ND‎"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -6650,15 +6664,25 @@ http://www.dorji.com/pro/Modules/Audio_voice_transceiver.html</description>
 <instance part="R7" gate="G$1" x="170.18" y="43.18" rot="R90"/>
 <instance part="R5" gate="G$1" x="149.86" y="134.62" rot="R90"/>
 <instance part="R2" gate="G$1" x="124.46" y="134.62" rot="R90"/>
-<instance part="C3" gate="G$1" x="43.18" y="73.66"/>
-<instance part="C4" gate="G$1" x="58.42" y="73.66"/>
-<instance part="C2" gate="G$1" x="27.94" y="73.66"/>
+<instance part="C3" gate="G$1" x="43.18" y="73.66">
+<attribute name="DIGIKEY" x="43.18" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="58.42" y="73.66">
+<attribute name="DIGIKEY" x="58.42" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C2" gate="G$1" x="27.94" y="73.66">
+<attribute name="DIGIKEY" x="27.94" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C5" gate="G$1" x="93.98" y="38.1"/>
 <instance part="Q2" gate="G$1" x="137.16" y="124.46" rot="R270"/>
 <instance part="JP1" gate="G$1" x="177.8" y="81.28"/>
 <instance part="JP2" gate="G$1" x="177.8" y="68.58"/>
-<instance part="L2" gate="G$1" x="35.56" y="81.28" rot="R90"/>
-<instance part="L3" gate="G$1" x="50.8" y="81.28" rot="R90"/>
+<instance part="L2" gate="G$1" x="35.56" y="81.28" rot="R90">
+<attribute name="DIGIKEY" x="35.56" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="L3" gate="G$1" x="50.8" y="81.28" rot="R90">
+<attribute name="DIGIKEY" x="50.8" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="R1" gate="G$1" x="109.22" y="76.2" rot="R90"/>
 <instance part="GND6" gate="1" x="170.18" y="30.48"/>
 <instance part="GND4" gate="1" x="109.22" y="63.5"/>
@@ -6677,8 +6701,12 @@ http://www.dorji.com/pro/Modules/Audio_voice_transceiver.html</description>
 <instance part="R4" gate="G$1" x="144.78" y="50.8" rot="R90"/>
 <instance part="R3" gate="G$1" x="127" y="101.6" rot="R90"/>
 <instance part="P+3" gate="1" x="127" y="111.76"/>
-<instance part="L1" gate="G$1" x="20.32" y="81.28" rot="R90"/>
-<instance part="C1" gate="G$1" x="12.7" y="73.66"/>
+<instance part="L1" gate="G$1" x="20.32" y="81.28" rot="R90">
+<attribute name="DIGIKEY" x="20.32" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C1" gate="G$1" x="12.7" y="73.66">
+<attribute name="DIGIKEY" x="12.7" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
